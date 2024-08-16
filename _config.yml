@@ -29,16 +29,19 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+disqus:
+  shortname: 'logBlog'
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
 # collections_dir: collections
 collections:
-  staff_members:
-    output: true
+  - animes
+  - staff_members
+    # output: true
 
 
 # Exclude from processing.
