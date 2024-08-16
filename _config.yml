@@ -32,6 +32,8 @@ github_username:  jekyll
 disqus:
   shortname: 'logBlog'
 
+repository: aeinn/null-s-log
+
 # Build settings
 # theme: minima
 plugins:
