@@ -1,0 +1,9 @@
+---
+title: Watched Anime
+layout: default
+---
+<ul>
+    {% for anime in site.animes %}
+        <li>{{ anime.title }}</li>
+    {% endfor %}
+</ul>
