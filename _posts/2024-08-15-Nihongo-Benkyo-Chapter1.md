@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Nihongo Benkyo Day 1"
-date:   2024-08-15 13:37:00 +0800
+title: "Nihongo Benkyo Day 1"
+date: 2024-08-15 13:37:00 +0800
 categories: learning japanese
 comment: true
 ---
