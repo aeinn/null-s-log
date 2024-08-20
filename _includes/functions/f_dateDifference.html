@@ -1,0 +1,22 @@
+{%- if true -%}
+<span id="dateDiffDisplay"></span>
+<script>
+    const dayDifference = function(date1, date2){
+        date1 = new Date(date1); date2 = new Date(date2);
+        const msUnitPerDay = 1000 * 60 * 60 * 24;
+
+        const date1_daySinceEpoch = Math.floor(date1 / msUnitPerDay);
+        const date2_daySinceEpoch = Math.floor(date2 / msUnitPerDay);
+
+        return Math.abs(date1_daySinceEpoch - date2_daySinceEpoch) + 1;
+    };
+
+    (function() {
+        const date1 = '{{ include.date1 }}';
+        const date2 = '{{ include.date2 }}';
+
+        const day = dayDifference(date1, date2);
+        document.getElementById('dateDiffDisplay').innerHTML = day;
+    })();
+</script>
+{%- endif -%}
