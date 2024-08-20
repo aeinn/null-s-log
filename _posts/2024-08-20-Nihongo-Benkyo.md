@@ -24,3 +24,13 @@ Implemented a mechanism for calculating days since started learning japanese usi
 The current implementation method is inspired from [Using Jekyll _includes as custom liquid functions](https://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/)
 
 I believe that my current implementation is flawed and can be improved.
+
+### rant
+I felt like I might be too greedy attempting to do all things I'm not familiar with all in the same time
+- learning japanese
+- using linux
+- using jekyll
+
+all while carrying the feelings of wanting to attempt more activities, such as improve drawings, make game, learn music, improve current blog design, improve my social etc
+
+oh man, sudden feeling of time being limited
