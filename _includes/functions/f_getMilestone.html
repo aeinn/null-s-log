@@ -1,0 +1,10 @@
+<span id="dateDiffDisplay"></span>
+<script>
+    (function() {
+        const date1 = '{{ site.dateStartedLearningJapanese }}';
+        const date2 = '{{ page.date }}';
+
+        const day = dayDifference(date1, date2);
+        document.getElementById('dateDiffDisplay').innerHTML = day;
+    })();
+</script>

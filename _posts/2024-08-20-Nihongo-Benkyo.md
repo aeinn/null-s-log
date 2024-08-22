@@ -6,7 +6,7 @@ categories: learning japanese
 comments: true
 ---
 
-# Day {{" "}}{%- include /functions/f_dateDifference.html date1=page.date date2=site.dateStartedLearningJapanese -%}
+# Day {{" "}}{%- include /functions/f_getMilestone.html -%}
 - memorised katakana for サ and タ column
 
 ### Unrelated notes 1
