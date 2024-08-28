@@ -14,7 +14,7 @@ permalink: /about/
 - Anime
 - Science
 
-Slice of life is my favourite genre cause I get to experience life through experiences of others. Hahahahah... Q-Q
+Slice of life is my favourite genre cause I get to experience life through the experiences of others. Hahahahah... Q-Q
 
 Slice of life contents includes:
 - vlogs
