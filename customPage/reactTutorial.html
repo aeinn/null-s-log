@@ -1,0 +1,42 @@
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+        const arr = [1,2,3,4,5,6];
+
+        function Header(prop){
+            const { title } = prop
+            return <h1>{ title ?? `Default Title` }</h1>
+        }
+
+        function HomePage(){
+            const [likes, setLikes] = React.useState(0);
+            function handleClick() {
+              setLikes(likes + 1);
+            }
+
+            return (
+                <div>
+                    <Header title="Custom Title" />  
+                    <Header />
+                    <ul>
+                        {arr.map(val => <li key={val + 'ul'}>{val}</li>)}
+                    </ul>
+                    
+                    <button onClick={handleClick}>Likes ({likes})</button>
+                </div>
+
+            )
+        }
+
+        
+      const app = document.getElementById('app');
+      const root = ReactDOM.createRoot(app);
+      root.render(<HomePage />);
+    </script>
+  </body>
+</html>
