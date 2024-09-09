@@ -1,19 +1,9 @@
 ---
-layout: default
+layout: page
+permalink: /post
 ---
 
 <div class="home">
-{% highlight md %}
-Hello, Internet's strangers, welcome to my blog. 
-{% endhighlight %}
-<!--   
-  $ Did you cringe from my title?
-  $ Anyway, I wanted to
-  $ I don't have anything prepared yet to serve to you,
-  $ but if you don't mind, 
-  $ below are logs of my thoughts and feelings that
-  $ I never have the courage to share irl -->
-
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
@@ -35,4 +25,5 @@ Hello, Internet's strangers, welcome to my blog.
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
+
 </div>
